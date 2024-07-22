@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Switch } from 'wouter'
 import "./App.css";
 
@@ -7,8 +6,6 @@ import { Navbar } from "./components/Navbar";
 import { Home, Heroes, HeroesDetail } from './pages'
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar>
